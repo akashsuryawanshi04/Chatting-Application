@@ -16,11 +16,8 @@ This project demonstrates a simple 1:1 real-time chat using plain Java sockets a
 
 - Java Swing GUI for Server and Client
 - Real-time messaging over TCP sockets
-- Enter key sends message (same as Send button)
 - Prevents sending empty messages
-- Rounded "bubble" style chat messages (WhatsApp-like)
-- Small spacing between consecutive messages from the same sender (grouping)
-- Scrollable chat area
+
 
 ---
 
@@ -42,7 +39,7 @@ chatting-application/
 │           ├── Server.java
 │           └── Client.java
 ├── icons/                # images loaded via ClassLoader.getSystemResource("icons/3.jpg")
-│   └── 3.jpg
+│   └── 3.jpg             # All required icons
 ├── README.md
 └── .gitignore
 ```
@@ -78,8 +75,6 @@ java -cp out chatting.application.Server
 ```bash
 java -cp out chatting.application.Client
 ```
-
-> If the app complains about resources not found, ensure `icons/3.jpg` exists inside `out/icons/3.jpg` (so `ClassLoader.getSystemResource("icons/3.jpg")` can locate it).
 
 ---
 
@@ -171,7 +166,6 @@ Add screenshot files into an `assets/` or `docs/` folder and reference them in t
 4. Push: `git push origin feature/awesome-feature`
 5. Open a pull request
 
-Please be descriptive in PRs and add screenshots if you change UI.
 
 ---
 
@@ -190,11 +184,15 @@ Permission is hereby granted, free of charge, to any person obtaining a copy
 
 ---
 
-## ✉️ Contact
+## 👨‍💻 Author
 
-Akash Suryawanshi — [akash@example.com](mailto\:akash@example.com) (replace with your real contact)
+**Akash Suryawanshi**  
+📧 [akashsuryawanshi1344@gmail.com](mailto:akashsuryawanshi1344@gmail.com)  
+💼 [LinkedIn Profile](https://linkedin.com/in/akashsuryawanshi04)  
+🌐 [GitHub Profile](https://github.com/akashsuryawanshi04)
 
 ---
 
-> *README created for you. Copy it into your project root as **`README.md`** or download it from the canvas.*
+⭐ If you like this project, don't forget to **star the repo** on GitHub!
+
 

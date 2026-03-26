@@ -176,7 +176,7 @@ This project is open-source. Choose a license that fits you — I recommend the 
 ```
 MIT License
 
-Copyright (c) YEAR Your Name
+Copyright (c) 2025 - Akash Suryawanshi
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 ... (standard MIT text)

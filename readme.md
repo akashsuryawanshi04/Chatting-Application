@@ -1,4 +1,4 @@
-# Chatting Application (Java Swing)
+# Chatting Application (Java-Swing)
 
 &#x20;
 
@@ -120,7 +120,7 @@ local.properties
 
 ---
 
-## 📦 How to create a distributable JAR (optional)
+## 📦 How to create a distributable JAR (optional).
 
 1. After compiling to `out/` you can create a jar (simple, without manifest main-class):
 

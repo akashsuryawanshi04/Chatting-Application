@@ -10,38 +10,7 @@ import java.net.Socket;
 import java.util.*;
 import java.text.*;
 
-public class Client extends JFrame implements ActionListener {
 
-    JTextField text;
-    static JPanel a1;
-    static Box vertical = Box.createVerticalBox();
-    static DataOutputStream dout;
-    static  JFrame f = new JFrame();
-
-    Client(){
-        // To View Frame
-
-        f.setLayout(null);
-
-        JPanel p1 = new JPanel();
-        p1.setBackground(new Color(7, 94, 84));
-        p1.setBounds(0, 0, 450, 70);
-        p1.setLayout(null);
-        f.add(p1);
-
-        ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("icons/back.png"));
-        Image i2 = i1.getImage().getScaledInstance(25, 25, Image.SCALE_DEFAULT);
-        ImageIcon i3 = new ImageIcon(i2);
-        JLabel back = new JLabel(i3);
-        back.setBounds(5, 20, 25, 25);
-        p1.add(back);
-
-        back.addMouseListener(new MouseAdapter() {
-            @Override
-            public void mouseClicked(MouseEvent ae) {
-                System.exit(0);
-            }
-        });
 
         ImageIcon i4 = new ImageIcon(ClassLoader.getSystemResource("icons/kohli.png"));
         Image i5 = i4.getImage().getScaledInstance(50, 50, Image.SCALE_DEFAULT);
